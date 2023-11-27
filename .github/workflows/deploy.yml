@@ -5,7 +5,7 @@ on:
 
 jobs:
   build_site:
-    runs-on: linux
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -32,7 +32,7 @@ jobs:
 
   deploy:
     needs: build_site
-    runs-on: linux
+    runs-on: ubuntu-latest
 
     permissions:
       pages: write
