@@ -5,51 +5,48 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>I'm Victor Ngo</title>
+	<meta name="description" content="Victor Ngo's Personal Website" />
 </svelte:head>
 
-<section>
-	<h1>
-		Victor Ngo, DevOps Engineer
-			<!-- TODO remove -->
-		<!-- <span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span> -->
+<section id="welcome">
+	<h1 class="mb-3">
+		Hello
 	</h1>
-	<p>Welcome to my personal site!</p>
 	<p>
-		The intentions of this site are to </p>
-		<ol>
-			<li>
-					1 - add value to you, 
-			</li>
-			<li>
-				2 - serve as a personal site
-			</li>
-		</ol>
-		
+		My name is Victor Ngo. I build for builders
+		<br /> 
+		I'm a DevOps Engineer based in San Francisco
+	</p>
 	<section>
-		<h2>Resources</h2>
-
-			Here are some things that have added value to my life and I hope they help yours:
-			- Link
-			<ul>
-				<li></li>
-			</ul>
-			* Linktree
-			* Personal blog 
-			* Link to CI/CD
-		
-			Health
-			- Avoid microplastics - https://twitter.com/davidasinclair/status/1680619459399090176		
+		<nav>
+			<li>
+				<a href="#">About me</a>
+			</li>
+			<li>
+				<a href="#">Read my articles</a>
+			</li>
+		</nav>
 	</section>
-
-
 </section>
+
+<section id="projects">
+	<section>
+		DevOps
+	</section>
+	<section>
+		Web Development
+	</section>
+	<section>
+		
+	</section>
+</section>
+
+<section id="contact">
+</section>
+
+
+
 
 <style>
 	section {
