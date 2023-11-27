@@ -16,9 +16,9 @@
   <p class="block text-center font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased">
     <ol>
       <li>
-        <a href="">Github</a>
-        <a href="">Twitter</a>
-        <a href="">Hashnode</a>
-        <a href="">LinkedIn</a>
+        <a href="https://github.com/vcotir">Github</a>
+        <!-- <a href="#">Twitter</a> -->
+        <a href="https://vcotir.hashnode.dev/">Hashnode</a>
+        <a href="https://www.linkedin.com/in/victor-ngo/">LinkedIn</a>
       </li>
 </footer>

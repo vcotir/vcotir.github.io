@@ -14,9 +14,9 @@
 		Hello
 	</h1>
 	<p>
-		My name is Victor Ngo. I build for builders
+		My name is Victor Ngo. I build for the builders.
 		<br /> 
-		I'm a DevOps Engineer based in San Francisco
+		I'm a DevOps Engineer based in San Francisco.
 	</p>
 	<section>
 		<nav>
