@@ -1,18 +1,18 @@
 name: Deploy to GH pages
-on: 
-  push: 
-    branches: 'main'
+on:
+  push:
+    branches: "main"
 
 jobs:
-  build_site: 
-    runs-on: self-hosted
+  build_site:
+    runs-on: linux
     steps:
       - name: Checkout
-        uses: actions/checkout@v3 
+        uses: actions/checkout@v3
 
       - name: Install Node.js
         uses: actions/setup-node@v3
-        with: 
+        with:
           node-version: 18
           cache: npm
 
@@ -20,25 +20,25 @@ jobs:
         run: npm install
 
       - name: build
-        env: 
-          BASE_PATH: '/vcotir.github.io'
+        env:
+          BASE_PATH: "/vcotir.github.io"
         run: |
           npm run build
 
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v1
-        with: 
-          path: 'build/'
-  
-  deploy: 
+        with:
+          path: "build/"
+
+  deploy:
     needs: build_site
-    runs-on: self-hosted
-    
+    runs-on: linux
+
     permissions:
-      pages: write  
+      pages: write
       id-token: write
-    
-    environment: 
+
+    environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
