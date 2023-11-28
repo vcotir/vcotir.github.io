@@ -21,10 +21,10 @@
 	<section>
 		<nav>
 			<li>
-				<a href="#">About me</a>
+				<a href="/about">About me</a>
 			</li>
 			<li>
-				<a href="#">Read my articles</a>
+				<a href="https://vcotir.hashnode.dev/" target="_blank">Read my articles</a>
 			</li>
 		</nav>
 	</section>
