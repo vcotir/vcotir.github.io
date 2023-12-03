@@ -14,7 +14,7 @@
 		Hello
 	</h1>
 	<p>
-		My name is Victor Ngo. I build for the builders.
+		My name is Victor Ngo. I build in the day so that builders can sleep easy at night.
 		<br /> 
 		I'm a DevOps Engineer based in San Francisco.
 	</p>
@@ -31,7 +31,7 @@
 </section>
 
 <section id="projects">
-	<section>
+	<!-- <section>
 		DevOps
 	</section>
 	<section>
@@ -39,14 +39,11 @@
 	</section>
 	<section>
 		
-	</section>
+	</section> -->
 </section>
 
 <section id="contact">
 </section>
-
-
-
 
 <style>
 	section {
